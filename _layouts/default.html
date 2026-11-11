@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <h1 class="sidebar-name">{{ site.author.name }}</h1>
+      {% if site.author.tagline %}<p class="sidebar-tagline">{{ site.author.tagline }}</p>{% endif %}
+      {% if site.author.location %}<p class="sidebar-location">{{ site.author.location }}</p>{% endif %}
+
+      <nav class="sidebar-nav">
+        <a href="{{ '/' | relative_url }}">about</a>
+        <a href="{{ '/blog/' | relative_url }}">blog</a>
+        <a href="{{ '/music/' | relative_url }}">music</a>
+      </nav>
+
+      <nav class="sidebar-links">
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">email</a>{% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">github</a>{% endif %}
+        {% if site.author.scholar %}<a href="{{ site.author.scholar }}">scholar</a>{% endif %}
+        {% if site.author.linkedin %}<a href="{{ site.author.linkedin }}">linkedin</a>{% endif %}
+        {% if site.author.twitter %}<a href="{{ site.author.twitter }}">twitter</a>{% endif %}
+        {% if site.author.bluesky %}<a href="{{ site.author.bluesky }}">bluesky</a>{% endif %}
+        {% if site.author.orcid %}<a href="{{ site.author.orcid }}">orcid</a>{% endif %}
+        {% if site.author.cv %}<a href="{{ site.author.cv | relative_url }}">cv</a>{% endif %}
+      </nav>
+    </aside>
+
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

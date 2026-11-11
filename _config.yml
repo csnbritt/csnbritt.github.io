@@ -1,0 +1,30 @@
+title: Carson Britt
+description: Personal site of Carson Britt — research, code, and writing.
+url: "https://csnbritt.github.io"
+
+# Author info shown on the homepage
+author:
+  name: Carson Britt
+  tagline: "ML + chemistry"
+  location: "Phoenix, AZ"
+  email: "carson.s.britt@gmail.com"
+  github: csnbritt
+  # scholar: ""        # Google Scholar profile URL
+  linkedin: "https://www.linkedin.com/in/carson-britt-472350a3"
+  twitter: "https://x.com/CarsonBrit24884"
+  # bluesky: ""        # Bluesky profile URL
+  # orcid: ""          # ORCID URL
+  cv: "/files/carson-britt-resume.pdf"
+
+markdown: kramdown
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts

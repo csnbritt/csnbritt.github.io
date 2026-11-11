@@ -1,0 +1,68 @@
+# Albums shown on /music/. Drop cover images in assets/img/albums/ and
+# update the cover paths below. `link` and `note` are optional.
+- title: "Last Night Something Happened"
+  artist: "Monster Movie"
+  cover: /assets/img/albums/last-night-something-happened.jpg
+- title: "Ferment"
+  artist: "Catherine Wheel"
+  cover: /assets/img/albums/ferment.jpg
+- title: "Excuses for Travellers"
+  artist: "Mojave 3"
+  cover: /assets/img/albums/excuses-for-travellers.jpg
+- title: "Deathconsciousness"
+  artist: "Have a Nice Life"
+  cover: /assets/img/albums/deathconsciousness.jpg
+- title: "Low Level Owl, Vol. 1 + 2"
+  artist: "The Appleseed Cast"
+  cover: /assets/img/albums/low-level-owl.jpg
+- title: "Different Stars"
+  artist: "Trespassers William"
+  cover: /assets/img/albums/different-stars.jpg
+- title: "Giles Corey"
+  artist: "Giles Corey"
+  cover: /assets/img/albums/giles-corey.jpg
+- title: "Perfect from Now On"
+  artist: "Built to Spill"
+  cover: /assets/img/albums/perfect-from-now-on.jpg
+- title: "Mic City Sons"
+  artist: "Heatmiser"
+  cover: /assets/img/albums/mic-city-sons.jpg
+- title: "Citrus"
+  artist: "Asobi Seksu"
+  cover: /assets/img/albums/citrus.jpg
+- title: "Stereo Musicale"
+  artist: "Blind Mr. Jones"
+  cover: /assets/img/albums/stereo-musicale.jpg
+- title: "Ambient 1: Music for Airports"
+  artist: "Brian Eno"
+  cover: /assets/img/albums/music-for-airports.jpg
+- title: "Summer in Abaddon"
+  artist: "Pinback"
+  cover: /assets/img/albums/summer-in-abaddon.jpg
+- title: "Loveless"
+  artist: "My Bloody Valentine"
+  cover: /assets/img/albums/loveless.jpg
+- title: "The Moon & Antarctica"
+  artist: "Modest Mouse"
+  cover: /assets/img/albums/the-moon-and-antarctica.jpg
+- title: "Boces"
+  artist: "Mercury Rev"
+  cover: /assets/img/albums/boces.jpg
+- title: "Going Blank Again"
+  artist: "Ride"
+  cover: /assets/img/albums/going-blank-again.jpg
+- title: "The Fauns"
+  artist: "The Fauns"
+  cover: /assets/img/albums/the-fauns.jpg
+- title: "Les Voyages de l'Âme"
+  artist: "Alcest"
+  cover: /assets/img/albums/les-voyages-de-l-me.jpg
+- title: "Ceres & Calypso in the Deep Time"
+  artist: "Candy Claws"
+  cover: /assets/img/albums/ceres-calypso-in-the-deep-time.jpg
+- title: "Dusk at Cubist Castle"
+  artist: "The Olivia Tremor Control"
+  cover: /assets/img/albums/dusk-at-cubist-castle.jpg
+- title: "Feels"
+  artist: "Animal Collective"
+  cover: /assets/img/albums/feels.jpg
